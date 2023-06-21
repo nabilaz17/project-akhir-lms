@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" type="image" href="img/logobaba.png" />
+  <title>Setting BabaStudio - eLEARNING</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo-b.png">
+    <!-- Custom Stylesheet -->
+    <link href="css/styledas.css" rel="stylesheet">
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="Dashboard.html">
+                    <b class="logo-abbr"><img class="logo-ba w-80" src="images/logo-b.png" alt=""> </b>
+                    <span class="logo-compact"><img src="./images/logo-b.png" alt=""></span>
+                    <span class="brand-title ">
+                        <img class="logo-b w-100" src="images/logo-babastudio.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content clearfix">
+
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+                <div class="header-left">
+                    <div class="input-group icons">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-transparent border-0 pr-2 pr-sm-3" id="basic-addon1"><i
+                                    class="mdi mdi-magnify"></i></span>
+                        </div>
+                        <input type="search" class="form-control" placeholder="Search Dashboard"
+                            aria-label="Search Dashboard">
+                        <div class="drop-down animated flipInX d-md-none">
+                            <form action="#">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-pill gradient-2">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication">
+                                <div class="dropdown-content-heading d-flex justify-content-between">
+                                    <span class="">1 New Notifications</span>
+                                    <a href="javascript:void()" class="d-inline-block">
+                                        <span class="badge badge-pill gradient-2">3</span>
+                                    </a>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i
+                                                        class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading text-primary">Mengerjakan Activity 2
+                                                    </h6>
+                                                    <span class="notification-text">One hour ago</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i
+                                                        class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Mencatat Materi 1</h6>
+                                                    <span class="notification-text">Ten hour ago</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-Primary-lighten-2"><i
+                                                        class="icon-present"></i></span>
+                                                <div class="notification-content">
+                                                    <h6 class="notification-heading">Membaca Materi 1</h6>
+                                                    <span class="notification-text">After two days</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown d-none d-md-flex">
+                            <a href="javascript:void(0)" class="log-user" data-toggle="dropdown">
+                                <span>Nabila Zahra Irfany</span>
+                            </a>
+
+                        </li>
+                        <li class="icons dropdown">
+                            <div class="user-img c-pointer position-relative" data-toggle="dropdown">
+                                <span class="activity active"></span>
+                                <img src="img/tim2.png" height="40" width="40" alt="">
+                            </div>
+                            <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="app-profile.html"><i class="icon-user"></i>
+                                                <span>Profile</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="icon-wrench"></i> <span>Setting</span>
+                                            </a>
+                                        </li>
+
+                                        <hr class="my-2">
+                                        <li><a href="login.html"><i class="icon-lock"></i> <span>Logout</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">
+          <div class="nk-nav-scroll">
+              <ul class="metismenu" id="menu">
+                  <li>
+                      <a href="Dashboard.html" aria-expanded="false">
+                          <i class="icon-speedometer menu-icon"></i><span class="nav-text">Dashboard</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="app-calender.html" aria-expanded="false">
+                          <i class="icon-calender"></i><span class="nav-text">My Calender</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                          <i class="icon-notebook menu-icon"></i> <span class="nav-text">Kursus</span>
+                      </a>
+                      <ul aria-expanded="false">
+                          <li><a href="./Kursus-materi.html">Materi</a></li>
+                          <li><a href="./kursus-materi-video.html">Materi Video</a></li>
+                          <li><a href="./kursus-tugas.html">Tugas</a></li>
+                          <li><a href="./kursus-form-pengumpulan.html">Form Pengumpulan Tugas</a></li>
+                          <li><a href="./kursus-form-absensi.html">Form Absensi</a></li>
+                      </ul>
+                  </li>
+
+                  <li>
+                      <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                          <i class="icon-trophy"></i> <span class="nav-text">Test</span>
+                      </a>
+                      <ul aria-expanded="false">
+                          <li><a href="pre-test.html">Pre Test</a></li>
+                          <li><a href="quiz-harian.html">Quiz Harian</a></li>
+                          <li><a href="post-test.html">Post Test</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="sertifikat.html" aria-expanded="false">
+                          <i class="icon-graduation"></i><span class="nav-text">Sertifikat</span>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <!--**********************************
+          Sidebar end
+      ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+
+            <!-- row -->
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <img alt="" class="rounded-circle mt-1" src="img/tim2.png" style="width: 80px;">
+                                    <h4 class="card-widget__title text-dark mt-3">Nabila Zahra Irfany</h4>
+                                    <h5 class="text-muted mt-2">Pelajar</h5>
+                                    <a class="btn gradient-9 btn-lg border-0 btn-rounded px-5 mt-3"
+                                        href="javascript:void()">Digital Marketing</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="card card-widget">
+                            <div class="card-body">
+                                <h3 class="mt-1">Setting</h3>
+                                <div class="progress mb-3" style="height: 7px">
+                                    <div class="progress-bar gradient-9" style="width: 100%;" role="progressbar"><span
+                                            class="sr-only"></span>
+                                    </div>
+                                </div>
+                                <style>
+                                    body {font-family: Arial;}
+                                    
+                                    /* Style the tab */
+                                    .tab {
+                                      overflow: hidden;
+                                      border: 1px solid #000000;
+                                      background-color: #ffffff;
+                                    }
+                                    
+                                    /* Style the buttons inside the tab */
+                                    .tab button {
+                                      background-color: inherit;
+                                      float: left;
+                                      border: none;
+                                      outline: none;
+                                      cursor: pointer;
+                                      padding: 14px 16px;
+                                      transition: 0.3s;
+                                      font-size: 17px;
+                                    }
+                                    
+                                    /* Change background color of buttons on hover */
+                                    .tab button:hover {
+                                      background-color: #e2cef3;
+                                    }
+                                    
+                                    /* Create an active/current tablink class */
+                                    .tab button.active {
+                                      background-color: #e2cef3;
+                                    }
+                                    
+                                    /* Style the tab content */
+                                    .tabcontent {
+                                      display: none;
+                                      padding: 6px 12px;
+                                      border: 1px solid #000000;
+                                      border-top: none;
+                                    }
+                                    </style>
+                                    </head>
+                                    <body>
+                                    
+                                    <p>Ubah profil di sini!</p>
+                                    
+                                    <div class="tab">
+                                      <button class="tablinks" onclick="openCity(event, 'editprofil')" id="defaultOpen">Edit Profile</button>
+                                    </div>
+                                    
+                                    <div id="editprofil" class="tabcontent">
+                                      <form>
+                                        <div class="row mb-3">
+                                          <label for="profileImage" class="col-md-4 col-lg-3 col-form-label">Foto Profil</label>
+                                          <div class="col-md-8 col-lg-9">
+                                            <img src="img/profil-tim2.png" alt="Profile">
+                                            <div class="pt-1">
+                                                
+                                                    <input type="file" id="myFile" name="filename">
+                                                   
+                                                
+                                            </div>
+                                          </div>
+                                        </div>
+                    
+                                        <div class="row mb-3">
+                                          <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Nama Lengkap</label>
+                                          <div class="col-md-8 col-lg-9">
+                                            <input name="fullName" type="text" class="form-control" id="fullName" value="Nabila Zahra Irfany">
+                                          </div>
+                                        </div>
+                    
+                                        <div class="row mb-3">
+                                          <label for="about" class="col-md-4 col-lg-3 col-form-label">Tentang</label>
+                                          <div class="col-md-8 col-lg-9">
+                                            <textarea name="about" class="form-control" id="about" style="height: 75px">Saya mengikuti kursus digital marketing dengan tujuan untuk mengembangkan keterampilan dalam mengelola kampanye pemasaran online. Saya juga belajar tentang berbagai aspek pemasaran digital seperti media sosial, SEO, periklanan online, analisis data, strategi konten, dan email marketing.</textarea>
+                                          </div>
+                                        </div>
+                    
+                                        <div class="row mb-3">
+                                          <label for="Pekerjaan" class="col-md-4 col-lg-3 col-form-label">Pekerjaan</label>
+                                          <div class="col-md-8 col-lg-9">
+                                            <input name="Pekerjaan" type="text" class="form-control" id="Pekerjaan" value="Pelajar">
+                                          </div>
+                                        </div>
+                    
+                                        <div class="row mb-3">
+                                          <label for="Kursus" class="col-md-4 col-lg-3 col-form-label">Kursus</label>
+                                          <div class="col-md-8 col-lg-9">
+                                            <input name="Kursus" type="text" class="form-control" id="Kursus" value="Digital Marketing">
+                                          </div>
+                                        </div>
+                    
+                                        <div class="row mb-3">
+                                          <label for="Negara" class="col-md-4 col-lg-3 col-form-label">Negara</label>
+                                          <div class="col-md-8 col-lg-9">
+                                            <input name="Negara" type="text" class="form-control" id="Negara" value="Indonesia">
+                                          </div>
+                                        </div>
+                    
+                                        <div class="row mb-3">
+                                          <label for="Alamat" class="col-md-4 col-lg-3 col-form-label">Alamat</label>
+                                          <div class="col-md-8 col-lg-9">
+                                            <input name="Alamat" type="text" class="form-control" id="Alamat" value="Kota Semarang">
+                                          </div>
+                                        </div>
+                    
+                                        <div class="row mb-3">
+                                          <label for="No. Handphone" class="col-md-4 col-lg-3 col-form-label">No. Handphone</label>
+                                          <div class="col-md-8 col-lg-9">
+                                            <input name="No. Handphone" type="text" class="form-control" id="No. Handphone" value="(+62) 821 1234 5678">
+                                          </div>
+                                        </div>
+                    
+                                        <div class="row mb-3">
+                                          <label for="Email" class="col-md-4 col-lg-3 col-form-label">Email</label>
+                                          <div class="col-md-8 col-lg-9">
+                                            <input name="email" type="email" class="form-control" id="Email" value="nabilazahra.msib@gmail.com">
+                                          </div>
+                                        </div>
+                    
+                                        <div class="text-center">
+                                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Save Changes</button>
+                                        </div>
+                                        
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="myModal" role="dialog">
+                                        <div class="modal-dialog">
+    
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h3 class="modal-title">Edit Profile</h3>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <p>Profil berhasil di ubah.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal"><b>OK</b></button>
+                                            </div>
+                                        </div>
+                                        
+                                        </div>
+                                    </div>
+                                      </form>
+                                    </div>
+                                    
+                                    <div id="Paris" class="tabcontent">
+                                <!-- Change Password Form -->
+                                <style>
+                                    /* Style all input fields */
+                                    input {
+                                      width: 100%;
+                                      padding: 12px;
+                                      border: 1px solid #ccc;
+                                      border-radius: 4px;
+                                      box-sizing: border-box;
+                                      margin-top: 6px;
+                                      margin-bottom: 16px;
+                                    }
+                                    
+                                    /* Style the submit button */
+                                    input[type=submit] {
+                                      background-color: #04AA6D;
+                                      color: white;
+                                    }
+                                    
+                                    /* Style the container for inputs */
+                                    .container {
+                                      background-color: #f1f1f1;
+                                      padding: 20px;
+                                    }
+                                    
+                                    /* The message box is shown when the user clicks on the password field */
+                                    #message {
+                                      display:none;
+                                      background: #f1f1f1;
+                                      color: #000;
+                                      position: relative;
+                                      padding: 20px;
+                                      margin-top: 10px;
+                                    }
+                                    
+                                    #message p {
+                                      padding: 10px 35px;
+                                      font-size: 18px;
+                                    }
+                                    
+                                    /* Add a green text color and a checkmark when the requirements are right */
+                                    .valid {
+                                      color: green;
+                                    }
+                                    
+                                    .valid:before {
+                                      position: relative;
+                                      left: -35px;
+                                      content: "✔";
+                                    }
+                                    
+                                    /* Add a red text color and an "x" when the requirements are wrong */
+                                    .invalid {
+                                      color: red;
+                                    }
+                                    
+                                    .invalid:before {
+                                      position: relative;
+                                      left: -35px;
+                                      content: "✖";
+                                    }
+                                    </style>
+                                    </head>
+                                    <body>
+                                      <form >
+                                        <label for="psw">Kata sandi saat ini</label>
+                                        <input type="password" id="psw" name="psw" required>
+                                    
+                                        <label for="psw">Kata sandi baru</label>
+                                        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+
+                                        <div class="text-center">
+                                            <input type="submit" value="Submit">
+                                        </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                    
+                                    <div id="message">
+                                      <h3>Kata sandi harus berisi yang berikut ini:</h3>
+                                      <p id="letter" class="invalid"><b>Huruf kecil</b></p>
+                                      <p id="capital" class="invalid"><b>Huruf kapital (huruf besar)</b></p>
+                                      <p id="number" class="invalid"><b>Sebuah angka</b></p>
+                                      <p id="length" class="invalid"><b>Minimal 8 karakter</b></p>
+                                    </div>
+                                                    
+                                    <script>
+                                    var myInput = document.getElementById("psw");
+                                    var letter = document.getElementById("letter");
+                                    var capital = document.getElementById("capital");
+                                    var number = document.getElementById("number");
+                                    var length = document.getElementById("length");
+                                    
+                                    // When the user clicks on the password field, show the message box
+                                    myInput.onfocus = function() {
+                                      document.getElementById("message").style.display = "block";
+                                    }
+                                    
+                                    // When the user clicks outside of the password field, hide the message box
+                                    myInput.onblur = function() {
+                                      document.getElementById("message").style.display = "none";
+                                    }
+                                    
+                                    // When the user starts to type something inside the password field
+                                    myInput.onkeyup = function() {
+                                      // Validate lowercase letters
+                                      var lowerCaseLetters = /[a-z]/g;
+                                      if(myInput.value.match(lowerCaseLetters)) {  
+                                        letter.classList.remove("invalid");
+                                        letter.classList.add("valid");
+                                      } else {
+                                        letter.classList.remove("valid");
+                                        letter.classList.add("invalid");
+                                      }
+                                      
+                                      // Validate capital letters
+                                      var upperCaseLetters = /[A-Z]/g;
+                                      if(myInput.value.match(upperCaseLetters)) {  
+                                        capital.classList.remove("invalid");
+                                        capital.classList.add("valid");
+                                      } else {
+                                        capital.classList.remove("valid");
+                                        capital.classList.add("invalid");
+                                      }
+                                    
+                                      // Validate numbers
+                                      var numbers = /[0-9]/g;
+                                      if(myInput.value.match(numbers)) {  
+                                        number.classList.remove("invalid");
+                                        number.classList.add("valid");
+                                      } else {
+                                        number.classList.remove("valid");
+                                        number.classList.add("invalid");
+                                      }
+                                      
+                                      // Validate length
+                                      if(myInput.value.length >= 8) {
+                                        length.classList.remove("invalid");
+                                        length.classList.add("valid");
+                                      } else {
+                                        length.classList.remove("valid");
+                                        length.classList.add("invalid");
+                                      }
+                                    }
+                                    </script>
+                                <!-- End Change Password Form -->
+                                    </div>
+                                    
+                                    <script>
+                                    function openCity(evt, cityName) {
+                                      var i, tabcontent, tablinks;
+                                      tabcontent = document.getElementsByClassName("tabcontent");
+                                      for (i = 0; i < tabcontent.length; i++) {
+                                        tabcontent[i].style.display = "none";
+                                      }
+                                      tablinks = document.getElementsByClassName("tablinks");
+                                      for (i = 0; i < tablinks.length; i++) {
+                                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                      }
+                                      document.getElementById(cityName).style.display = "block";
+                                      evt.currentTarget.className += " active";
+                                    }
+                                    
+                                    // Get the element with id="defaultOpen" and click on it
+                                    document.getElementById("defaultOpen").click();
+                                    </script>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- #/ container -->
+    </div>
+    <!--**********************************
+            Content body end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+
+</body>
+
+</html>

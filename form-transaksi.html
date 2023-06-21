@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image" href="img/logobaba.png" />
+  <title>Transaksi BabaStudio - eLEARNING</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon">
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Header Start -->
+  <div class="container-fluid bg-primary py-5 mb-5 page-header">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h1 class="display-3 text-white animated slideInDown">Transaksi Kursus</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header End -->
+
+  <!-- ======= Transaksi ======= -->
+  <h1 class="mb-5 text-center">Formulir Transaksi Kursus</h1>
+  <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
+    <img src="img/transaksi.png" width="500" alt="">
+  </a>
+
+  <fieldset>
+    <div class="formbold-main-wrapper">
+      <div class="formbold-form-wrapper">
+
+        <div class="formbold-input-wrapp formbold-mb-3">
+          <label for="namalengkap" class="formbold-form-label"><b>Nama Lengkap</b></label>
+          <div>
+            <input type="text" name="namalengkap" placeholder="Nama Lengkap" class="formbold-form-input">
+          </div>
+        </div>
+
+        <div class="formbold-input-wrapp formbold-mb-3">
+          <label for="username" class="formbold-form-label"><b>Username</b><br><small> (Note: <i>Pastikan sudah memiliki
+                akun terlebih dahulu</i>)</small></label>
+          <div>
+            <input type="text" name="username" id="username" placeholder="Username Akun Baba Studio e-Learning"
+              class="formbold-form-input" />
+          </div>
+        </div>
+
+        <div class="formbold-mb-3">
+          <label for="email" class="formbold-form-label"><b>Email</b></label><small> (Note: <i>Masukkan email yang pada
+              saat registrasi akun</i>)</small></label>
+          <input type="email" name="email" id="email" placeholder="example@email.com" class="formbold-form-input" />
+        </div>
+
+        <div class="formbold-mb-3">
+          <label class="formbold-form-label" required><b>Jenis Kelamin</b></label>
+
+          <select class="formbold-form-input" name="jeniskelamin" id="jeniskelamin">
+            <option value="">Pilih Jenis Kelamin</option>
+            <option value="Perempuan">Perempuan</option>
+            <option value="Laki-laki">Laki-laki</option>
+          </select>
+        </div>
+
+        <div class="formbold-mb-3">
+          <label class="formbold-form-label" required><b>Kursus Baba Studio</b></label>
+
+          <select class="formbold-form-input" name="jeniskelamin" id="jeniskelamin">
+            <option value="">Pilih Kursus Baba Studio</option>
+            <option value="">Rp. 1.000.000 - Microsoft Office Course</option>
+            <option value="">Rp. 1.800.000 - Graphic Design Course</option>
+            <option value="">Rp. 2.350.000 - Website Course</option>
+            <option value="">Rp. 2.600.000 - Search Engine Optimization Course</option>
+            <option value="">Rp. 1.000.000 - JavaScript Course</option>
+            <option value="">Rp. 1.200.000 - Node.js Course</option>
+            <option value="">Rp. 2.000.000 - PHP Course</option>
+            <option value="">Rp. 1.000.000 - Digital Marketing Course</option>
+            <option value="">Rp. 2.200.000 - Web Development Course</option>
+            <option value="">Rp. 2.740.000 - ReactJS Course</option>
+            <option value="">Rp. 1.400.000 - Web Design Course</option>
+            <option value="">Rp. 3.500.000 - Android Course</option>
+            <option value="">Rp. 2.680.000 - React Native Course</option>
+            <option value="">Rp. 2.990.000 - Ruby on Rails Course</option>
+          </select>
+        </div>
+
+        <div class="formbold-mb-3 formbold-input-wrapp">
+          <label for="phone" class="formbold-form-label"><b>No. Telepon</b></label>
+
+          <div>
+            <select name="cars" id="cars">
+              <option value="">Kode Negara (Telpon)</option>
+              <option value="">Indonesia +62</option>
+              <option value="">Arab Saudi +966</option>
+              <option value="">Amerika Serikat +1</option>
+              <option value="">Jepang +81</option>
+            </select>
+
+            <input type="number" name="phone" id="phone" placeholder="Nomor Telepon" class="formbold-form-input" />
+          </div>
+        </div>
+
+        <div class="formbold-mb-3">
+          <label for="dob" class="formbold-form-label"><b>Waktu Transaksi</b></label>
+          <input type="date" name="dob" id="dob" class="formbold-form-input" />
+        </div>
+
+        <div class="formbold-mb-3">
+          <label for="address" class="formbold-form-label"><b>Alamat</b></label>
+          <small> (Note: <i>Alamat sesuai KTP</i>)</small></label>
+
+          <input type="text" name="address" id="address" placeholder="Alamat"
+            class="formbold-form-input formbold-mb-3" />
+        </div>
+
+        <div class="formbold-input-flex">
+          <div>
+            <label for="city" class="formbold-form-label"><b>Kota</b></label>
+            <small> (Note: <i>Kota sesuai KTP</i>)</small></label>
+            <input type="text" name="city" id="city" placeholder="Kota" class="formbold-form-input" />
+          </div>
+        </div>
+
+        <div class="formbold-input-flex">
+          <label for="city" class="formbold-form-label"><b>Metode Transaksi</b></label>
+        </div>
+
+        <div>
+          <input type="radio" name="size" value="Nomor Rekening BCA Baba Studio : 1234567890" id="BCA">
+          <label for="BCA">BCA</label>
+        </div>
+        <div>
+          <input type="radio" name="size" value="Nomor Rekening BNI Baba Studio : 4567890123" id="BNI">
+          <label for="BNI">BNI</label>
+        </div>
+        <div>
+          <input type="radio" name="size" value="Nomor Rekening BRI Baba Studio : 6789012345" id="BRI">
+          <label for="BRI">BRI</label>
+        </div>
+        <div>
+          <input type="radio" name="size" value="Kode Pembayaran Indomaret Baba Studio : IND657893BBSD" id="Indomaret">
+          <label for="Indomaret">Indomaret</label>
+        </div>
+        <div>
+          <input type="radio" name="size" value="Kode Pembayaran Alfamart Baba Studio : ALF378893BBSD" id="Alfamart">
+          <label for="Alfamart">Alfamart</label>
+        </div>
+        <br />
+        <p>
+          <button class="btn_style" id="btn">Klik Nomor Transaksi</button>
+        </p>
+
+        <p id="output"></p>
+
+        <script>
+          const btn = document.querySelector('#btn');
+          const radioButtons = document.querySelectorAll('input[name="size"]');
+          btn.addEventListener("click", () => {
+            let selectedSize;
+            for (const radioButton of radioButtons) {
+              if (radioButton.checked) {
+                selectedSize = radioButton.value;
+                break;
+              }
+            }
+            // show the output:
+            output.innerText = selectedSize ? `${selectedSize}` : `Anda belum memilih metode transaksi apa pun`;
+          });
+        </script>
+
+
+        <div class="formbold-mb-3">
+          <label for="upload" class="formbold-form-label">
+            <b>Foto KTP</b>
+          </label>
+          <input type="file" name="upload" id="upload" class="formbold-form-input formbold-form-file" />
+        </div>
+
+        <div class="formbold-mb-3">
+          <label for="upload" class="formbold-form-label">
+            <b>Bukti Transaksi</b>
+          </label>
+          <input type="file" name="upload" id="upload" class="formbold-form-input formbold-form-file" />
+        </div>
+
+        <div class="formbold-checkbox-wrapper">
+          <label for="supportCheckbox" class="formbold-checkbox-label">
+            <div class="formbold-relative">
+              <input type="checkbox" id="supportCheckbox" class="formbold-input-checkbox" />
+              <div class="formbold-checkbox-inner">
+                <span class="formbold-opacity-0">
+                  <svg width="11" height="8" viewBox="0 0 11 8" class="formbold-stroke-current" fill="none">
+                    <path
+                      d="M8.81868 0.688604L4.16688 5.4878L2.05598 3.29507C1.70417 2.92271 1.1569 2.96409 0.805082 3.29507C0.453266 3.66742 0.492357 4.24663 0.805082 4.61898L3.30689 7.18407C3.54143 7.43231 3.85416 7.55642 4.16688 7.55642C4.47961 7.55642 4.79233 7.43231 5.02688 7.18407L10.0696 2.05389C10.4214 1.68154 10.4214 1.10233 10.0696 0.729976C9.71776 0.357624 9.17049 0.357625 8.81868 0.688604Z"
+                      fill="white" />
+                  </svg>
+                </span>
+              </div>
+
+            </div>
+            Saya menyetujui syarat, ketentuan, dan kebijakan yang ditetapkan.</a>
+          </label>
+        </div><br>
+
+        <a href="transaksi-berhasil.html" class="button-transaksi">Bayar Sekarang</a>
+
+
+
+      </div>
+    </div>
+
+  </fieldset>
+
+
+
+  <!-- End Transaksi -->
+
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h4 class="text-white mb-3">Fasilitas Kursus </br> Baba Studio</h4>
+          <ol>
+            <li>Premium Schedule</li>
+            <li>Satu Murid pun Kelas LANGSUNG mulai</li>
+            <li>Konsultasi sepuasnya, tidak dibatasi</li>
+          </ol>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="text-white mb-3">Kontak</h4>
+          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Ruko Grand ITC Permata Hijau Blok Saphire No.14 - Jl.
+            Letjen Soepeno (Arteri Permata Hijau) - Kebayoran Lama, Grogol Utara, Jakarta Selatan 12210
+          </p>
+          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>081282017048</p>
+          <p class="mb-2"><i class="fa fa-envelope me-3"></i>prakerja@babastudio.com</p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-outline-light btn-social"
+              href="https://twitter.com/babatraining?s=11&t=z-qOIesWW-cZTM4i42CVjQ"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/Babastudiocom?mibextid=LQQJ4d"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://youtube.com/@NeoBaba"><i
+                class="fab fa-youtube"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/p/B9yD6T2g0aM/"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="text-white mb-3">Galeri Foto</h4>
+          <div class="row g-2 pt-2">
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/g1.jpg" alt="">
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/g2.jpg" alt="">
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/g3.jpg" alt="">
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/g3.jpg" alt="">
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/g1.jpg" alt="">
+            </div>
+            <div class="col-4">
+              <img class="img-fluid bg-light p-1" src="img/g2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="text-white mb-3">Jam Operational CS</h4>
+          <ul>
+            <li>Senin - Jumat <br><b>08:00 s/d 20:00</b></li>
+            <li>Sabtu - Minggu <br><b>08:00 s/d 17.00</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a class="border-bottom" href="#"><strong>Academy BabaStudio</strong></a>, All Right Reserved.
+
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            <br>
+            Designed By <a class="border-bottom" href=""><strong>Nabila Zahra Irfany</strong></a><br><br>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <div class="footer-menu">
+              <a href="index.html">Beranda</a>
+              <a href="tentang.html">Tentang</a>
+              <a href="kursus.html">Kursus</a>
+              <a href="kontak-babastudio1.html">Kontak</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
